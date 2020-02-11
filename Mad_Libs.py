@@ -1,2 +1,14 @@
-  from __future__ import print_function
-    
+from __future__ import print_function
+name=raw_input('name')
+theme=raw_input('theme')
+a_place=raw_input('a place')
+day_of_the_week=raw_input('day of the week')
+time=raw_input('time')
+verb=raw_input('verb')
+animal=raw_input('animal')
+body_part=raw_input('body_part')
+contact_information=raw_input('contact_information')
+print(name,'is having a',theme,'party!')
+print('It is going to be at',a_place,'on',day_of_the_week,'.')
+print('Please make sure to show up at',time,',or else you will be required to',verb,'a',animal,'with your',body_part,'.')
+print('RSVP at',contact_information,'.')
